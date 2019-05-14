@@ -204,10 +204,10 @@ Portfolio Section Start
           <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="700ms"
             style="visibility: hidden; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 600ms; -webkit-animation-delay: 600ms; animation-name: none; -webkit-animation-name: none;">
             <div class="img-wrapper">
-              <img src="images/pool9.jpg" class="img-responsive" alt="">
+              <img src="images/pool16.jpg" class="img-responsive" alt="">
               <div class="overlay">
                 <div class="buttons">
-                  <a rel="gallery" class="fancybox" href="images/pool9.jpg">Enlarge</a>
+                  <a rel="gallery" class="fancybox" href="images/pool16.jpg">Enlarge</a>
                 </div>
               </div>
             </div>
@@ -256,10 +256,10 @@ Portfolio Section Start
           <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms"
             style="visibility: hidden; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 900ms; -webkit-animation-delay: 900ms; animation-name: none; -webkit-animation-name: none;">
             <div class="img-wrapper">
-              <img src="images/pool8.jpg" class="img-responsive" alt="">
+              <img src="images/pool15.jpg" class="img-responsive" alt="">
               <div class="overlay">
                 <div class="buttons">
-                  <a rel="gallery" class="fancybox" href="images/pool8.jpg">Enlarge</a>
+                  <a rel="gallery" class="fancybox" href="images/pool15.jpg">Enlarge</a>
                 </div>
               </div>
             </div>
@@ -269,10 +269,10 @@ Portfolio Section Start
           <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms"
             style="visibility: hidden; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 900ms; -webkit-animation-delay: 900ms; animation-name: none; -webkit-animation-name: none;">
             <div class="img-wrapper">
-              <img src="images/pool11.jpg" class="img-responsive" alt="">
+              <img src="images/pool9.jpg" class="img-responsive" alt="">
               <div class="overlay">
                 <div class="buttons">
-                  <a rel="gallery" class="fancybox" href="images/pool11.jpg">Enlarge</a>
+                  <a rel="gallery" class="fancybox" href="images/pool9.jpg">Enlarge</a>
                 </div>
               </div>
             </div>
@@ -398,27 +398,28 @@ Portfolio Section Start
       </div>
     </div>
 
+    <!-- method="#" action="#" role="form" -->
     <div class="container align-center">
       <div class="row">
         <div class="col-md-6">
           <div class="block ">
             <div class="contact-form">
-              <form id="contact-form" method="#" action="#" role="form">
+              <form id="contact-form" target="_blank" onsubmit="return send_mail()">
 
-                <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
-                  <input type="text" placeholder="Name" class="form-control" name="name" id="name">
+                <div class=" form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
+                  <input type="text" placeholder="Name" class="form-control" name="name" id="name_field">
                 </div>
 
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
-                  <input type="email" placeholder="Email" class="form-control" name="email" id="email">
+                  <input type="email" placeholder="Email" class="form-control" name="email" id="email_field">
                 </div>
 
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
-                  <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                  <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject_field">
                 </div>
 
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
-                  <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                  <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message_field"></textarea>
                 </div>
 
                 <div id="success" class="success">
@@ -430,7 +431,7 @@ Portfolio Section Start
                 </div>
 
                 <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
-                  <input type="submit" id="contact-submit" class="btn btn-default btn-send" value="SUBMIT">
+                  <input type="submit" id="submit" class="btn btn-default btn-send" value="SUBMIT">
                 </div>
               </form>
             </div>
