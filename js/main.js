@@ -73,7 +73,7 @@
       },
     },
     submitHandler: function send_mail() {
-      window.location.href = 'mailto:goldinwebdesign@gmail.com?subject=' + encodeURI(document.getElementById("subject_field").value) +
+      window.location.href = 'mailto:craftmasterpool@bellsouth.net?subject=' + encodeURI(document.getElementById("subject_field").value) +
         '&body=' + encodeURI(document.getElementById("message_field").value)
       return false
     }
